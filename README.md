@@ -16,7 +16,7 @@ Running tests require node >= 8?
 Ports default to 3000 for app and 3001 for server. Set `PORT` and `API_PORT` in `.env` to change these.
 
 ## Tools used
-[BareCSS](https://github.com/ericclemmons/bare-css) for basic styling, and following packages:
+[BareCSS](https://github.com/longsien/BareCSS) for basic styling, and following packages:
 
 ```
 "dependencies": {
