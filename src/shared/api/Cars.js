@@ -4,7 +4,6 @@ import 'isomorphic-fetch'
 
 const SIMULATED_CALL_MS = 2500
 
-// Example of actual remote fetching
 export const fetchCars = () =>
   new Promise(async (resolve, reject) => {
     try {
@@ -12,6 +11,7 @@ export const fetchCars = () =>
 
       const cars = await response.json()
 
+      // Simulate remote fetch by adding some delay to response
       setTimeout(() => resolve(cars), SIMULATED_CALL_MS)
     } catch (error) {
       reject(error)
